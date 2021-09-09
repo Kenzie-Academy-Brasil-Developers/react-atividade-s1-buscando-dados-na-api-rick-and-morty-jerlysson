@@ -10,8 +10,9 @@ function App() {
       .then((response) => {
         return response.json();
       })
-      .then((response) => setCharactersList(response.results));
-  });
+      .then((response) => setCharactersList(response.results))
+      .catch((err) => console.log(err));
+  }, []);
 
   return (
     <div className="App">
