@@ -1,0 +1,16 @@
+.carBox {
+  margin: 0.2em;
+}
+.img {
+  width: 15em;
+}
+.alive {
+  border: 1em solid green;
+}
+.death {
+  border: 1em solid red;
+}
+.name {
+  text-decoration: underline;
+  font-size: 1.5em;
+}
